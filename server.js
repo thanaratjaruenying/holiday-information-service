@@ -1,7 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import fs from 'fs'
-import config from './config.js'
 import dotenv from 'dotenv'
 
 export default class Server {
