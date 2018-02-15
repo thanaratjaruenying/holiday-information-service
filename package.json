@@ -1,0 +1,32 @@
+{
+  "name": "holiday-information-service",
+  "version": "1.0.0",
+  "description": "Holiday information service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanaratjaruenying/holiday-information-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanaratjaruenying/holiday-information-service/issues"
+  },
+  "homepage": "https://github.com/thanaratjaruenying/holiday-information-service#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "superagent": "^3.8.2"
+  }
+}
